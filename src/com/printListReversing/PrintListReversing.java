@@ -5,9 +5,11 @@ import java.util.List;
 import com.sun.org.apache.bcel.internal.classfile.Node;
 
 public class PrintListReversing {
+ 
 	
 }
 class LinkList{
+	ListNode first;
 	public void addfirstNode(int data) {
 		ListNode node=new ListNode(data);
 		node.nextnode=first;
@@ -17,7 +19,7 @@ class LinkList{
 		ListNode tempnode=new ListNode(data);
 		ListNode current=first;
 	}
-}
+}  
 class ListNode{
 	int data;
 	ListNode nextnode;
