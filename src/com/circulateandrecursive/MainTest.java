@@ -15,7 +15,7 @@ public class MainTest {
 	
 	public static void main(String[] args) {
 		MainTest.circulate();
-		System.out.println(MainTest.recursive(100));
+		System.out.println(MainTest.recursive(50000));
 	}
 	static int recursive(int n) {
 		// TODO Auto-generated method stub
